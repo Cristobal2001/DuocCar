@@ -1,0 +1,27 @@
+.min{
+    font-size: 0.4cm;
+}
+.white{
+    color: white;
+}
+.alfin{
+    text-align: right;
+}
+ion-toolbar{
+    background-color: var(--ion-color-inicio);
+}
+ion-content{
+    background-color: var(--ion-color-fondoinicio);
+}
+ion-menu-button{
+    background-color: var(--ion-color-inicio);
+}
+ion-menu.md ion-item.selected{
+    background: rgb(var(--ion-color-inicio),0.14);
+}
+.peq{
+    font-size: 0.1cm;
+}
+.letra{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

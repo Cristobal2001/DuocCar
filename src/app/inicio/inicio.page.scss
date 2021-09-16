@@ -1,0 +1,32 @@
+.center{
+    text-align: end;
+}
+.alfinn{
+    text-align: right;
+}
+.derecha{
+    nav-right: auto;
+}
+.inicio{
+    --ion-color-inicio: #95ccd0;
+    --ion-color-inicio-rgb: 149,204,208;
+    --ion-color-inicio-contrast: #000000;
+    --ion-color-inicio-contrast-rgb: 0,0,0;
+    --ion-color-inicio-shade: #83b4b7;
+    --ion-color-inicio-tint: #a0d1d5;
+}
+ion-toolbar{
+    background-color: var(--ion-color-inicio);
+}
+ion-content{
+    background-color: var(--ion-color-fondoinicio);
+}
+ion-menu-button{
+    background-color: var(--ion-color-inicio);
+}
+ion-menu.md ion-item.selected{
+    background: rgb(var(--ion-color-inicio),0.14);
+}
+.let{
+    font-family: sans-serif;
+}

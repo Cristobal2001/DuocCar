@@ -1,3 +1,90 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <ion-menu  menuId="main-menu" content-id="main">
+     <ion-header >
+       <ion-toolbar color="inicio">
+         <ion-title>Menu</ion-title>
+
+       </ion-toolbar >
+     </ion-header>
+     <ion-content>
+       <ion-list>
+        <ion-item>
+          
+          <ion-avatar> <img src="assets/img/leogil.jpg">  </ion-avatar>
+          <label class="white">_</label>
+          <ion-label> Cristobal Ampuero </ion-label>
+          
+          <ion-icon color="warning" name="happy-outline"></ion-icon>
+          <ion-icon color="warning" name="star-outline"></ion-icon>
+       </ion-item> 
+       <ion-item>
+        <ion-icon name="calendar-outline"></ion-icon>
+        <label class="white">__</label>
+        <ion-datetime value="2019-10-01T15:43:40.394Z" display-timezone="utc"></ion-datetime>
+       </ion-item>
+       <ion-item>
+        <ion-icon name="mail-outline"></ion-icon>
+        <label class="white">__</label>
+           <ion-label class="min">cris.ampuero@duocuc.cl</ion-label>
+           </ion-item>
+        <ion-item>
+          <ion-icon name="card-outline"></ion-icon>
+          <label class="white">__</label>
+          <label >Tipo de pago</label>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="wallet-outline"></ion-icon>
+          <label class="white">__</label>
+          <label>Mi Dinero</label>
+        </ion-item>
+        <ion-item>
+          <ion-icon name="chatbox-ellipses-outline"></ion-icon>
+          <label class="white">__</label>
+           <label class="min">Comenta</label> 
+           <label class="white">__</label>
+          <ion-chip color="primary"><ion-icon color="primary" name="logo-apple-appstore"></ion-icon></ion-chip>
+          <ion-chip color="success"><ion-icon color="success" name="logo-google-playstore"></ion-icon></ion-chip>
+          </ion-item>
+          <ion-item>
+            <ion-icon name="share-social-outline"></ion-icon> 
+            <label class="white">__</label>
+            <label >Comparte la App</label>
+            <label class="white">_</label>
+            <ion-chip color="tertiary">
+           <ion-icon name="share-social-outline" color="dark"></ion-icon>
+             </ion-chip>
+          </ion-item>
+          <ion-item>
+            <ion-icon name="globe-outline"></ion-icon>
+            <label class="white">__</label>
+            <label>Redes Sociales</label>
+            <ion-icon color="primary" name="logo-facebook"></ion-icon>
+            <label class="white">__</label>
+            <ion-icon color="danger" name="logo-youtube"></ion-icon>
+            <label class="white">__</label>
+            <ion-icon color="secondary" name="logo-twitter"></ion-icon>
+          </ion-item>
+          <ion-item>
+            <ion-icon name="language-outline"></ion-icon>
+            <label class="white">__</label>
+
+            <label>Language</label>
+            <label class="white">__</label>
+              <ion-select placeholder="Select One">
+                <ion-select-option value="S">Español</ion-select-option>
+                <ion-select-option value="I">Ingles</ion-select-option>
+              </ion-select>
+           
+          </ion-item>
+          <ion-item>
+            <ion-icon name="information-circle-outline"></ion-icon>
+            <label class="white">__</label>
+            <label >Informacion</label>
+          </ion-item>
+          
+      </ion-list>
+     </ion-content>
+    </ion-menu> 
+    
+  <ion-router-outlet id="main"></ion-router-outlet>
 </ion-app>
